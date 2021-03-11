@@ -1,0 +1,41 @@
+{
+  "vpc-provider:account=166757723717:filter.tag:Name=ause1:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-05aa28573d472cd1e",
+    "vpcCidrBlock": "10.215.54.0/24",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-06d51a1fbf2830632",
+            "cidr": "10.215.54.0/26",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-077cf187c57955f52"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=166757723717:filter.vpc-id=vpc-05aa28573d472cd1e:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-05aa28573d472cd1e",
+    "vpcCidrBlock": "10.215.54.0/24",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-06d51a1fbf2830632",
+            "cidr": "10.215.54.0/26",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-077cf187c57955f52"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=166757723717:filters.image-type.0=machine:filters.name.0=xucpwind:filters.state.0=available:region=us-east-1": "ami-09f0eca723231dd91"
+}
